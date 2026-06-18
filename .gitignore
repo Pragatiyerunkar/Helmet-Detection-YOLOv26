@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual Environment
+venv/
+.venv/
+.env
+
+# Dataset
+training_data/
+2-classes/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# YOLO Training Outputs
+runs/
+
+# Model Weights
+*.pt
+*.onnx
+*.engine
+
+# VS Code
+.vscode/
+
+# OS Files
+.DS_Store
+Thumbs.db
+
+# Allow specific model files
+!yolo26n.pt
+!pretrained_model/
