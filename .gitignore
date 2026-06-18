@@ -31,6 +31,10 @@ runs/
 .DS_Store
 Thumbs.db
 
+
 # Allow specific model files
 !yolo26n.pt
+
+# Whitelist the pretrained_model folder and its contents
 !pretrained_model/
+!pretrained_model/**
