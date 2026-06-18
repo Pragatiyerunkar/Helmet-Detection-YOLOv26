@@ -30,7 +30,7 @@ The system enhances road safety monitoring by automatically detecting helmet com
 * OpenCV
 * Streamlit
 * NumPy
-* Pillow (PIL)
+* MLflow
 
 ---
 
